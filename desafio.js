@@ -8,7 +8,7 @@ const vitorias = parseInt(prompt("Digite o número de vitórias:"));
 const derrotas = parseInt(prompt("Digite o número de derrotas:"));
 
 
-// Função para calcular o nível com base nas vitórias e derrotas
+
 
 function calcularNivel(vitorias, derrotas) {
   const saldoVitorias = vitorias - derrotas;
@@ -35,14 +35,14 @@ function calcularNivel(vitorias, derrotas) {
 
  if  (nameHeroi !== " ")
   console.log(`O Heroi de nome: ${nameHeroi},tem um saldo de ${saldoVitorias} vitórias e está no nível de ${nivel}`);
-  // Retorna o resultado
+ 
 }   
   const resultado = calcularNivel(vitorias, derrotas);
     console.log( resultado);
 
   
 
-    console.log(`Você precisa informar o nome do heroi e seu xp para verificar o nivel.`);
+
 
 
  
